@@ -1,5 +1,5 @@
 
-# Challenge Yape
+# Challenge Yape - Android (Kotlin)
 Este proyecto se desarrolló una aplicación que permitirá visualizar recetas de cocina. 
 
 ## Explicación de las ramas creadas
