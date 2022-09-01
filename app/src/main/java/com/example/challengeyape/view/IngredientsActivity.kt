@@ -1,4 +1,4 @@
-package com.example.challengeyape
+package com.example.challengeyape.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

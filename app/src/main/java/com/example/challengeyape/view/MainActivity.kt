@@ -3,14 +3,11 @@ package com.example.challengeyape.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.SearchEvent
 import android.widget.SearchView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.challengeyape.Adapter.RecipeAdapter
-import com.example.challengeyape.R
+import com.example.challengeyape.adapter.RecipeAdapter
 import com.example.challengeyape.databinding.ActivityMainBinding
-import com.example.challengeyape.model.IngredientModel
 import com.example.challengeyape.model.RecipeModel
 import com.example.challengeyape.model.provider.RecipeProvider
 import com.example.challengeyape.model.provider.SearchRecipe

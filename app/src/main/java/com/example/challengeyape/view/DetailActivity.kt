@@ -3,16 +3,9 @@ package com.example.challengeyape.view
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.example.challengeyape.IngredientsActivity
-import com.example.challengeyape.R
 import com.example.challengeyape.databinding.ActivityDetailBinding
-import com.example.challengeyape.databinding.ActivityMainBinding
 import com.example.challengeyape.model.CoordinatesModel
-import com.example.challengeyape.model.IngredientModel
 import com.example.challengeyape.model.RecipeModel
 
 class DetailActivity() : AppCompatActivity() {

@@ -1,7 +1,6 @@
 package com.example.challengeyape.model.provider
 
 import com.example.challengeyape.model.CoordinatesModel
-import com.example.challengeyape.model.IngredientModel
 import com.example.challengeyape.model.RecipeModel
 
 class RecipeProvider {

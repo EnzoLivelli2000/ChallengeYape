@@ -1,4 +1,4 @@
-package com.example.challengeyape.Adapter
+package com.example.challengeyape.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
