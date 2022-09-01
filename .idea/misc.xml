@@ -5,12 +5,15 @@
       <map>
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.169" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/drawable/empty_tall_divider.xml" value="0.169" />
+        <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/drawable/ic_launcher_background.xml" value="0.194" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/drawable/rouded_corner.xml" value="0.194" />
+        <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/drawable/splash_screen.xml" value="0.194" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/activity_detail.xml" value="0.1" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/activity_ingredients.xml" value="0.3251612903225806" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/activity_main.xml" value="0.15443840579710144" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/activity_map.xml" value="0.209375" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/activity_maps.xml" value="0.209375" />
+        <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
         <entry key="..\:/Developer/Projects/AndroidStudio/dev/ChallengeYape/app/src/main/res/layout/item_recipe.xml" value="0.33" />
       </map>
     </option>

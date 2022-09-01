@@ -8,6 +8,7 @@ import android.widget.SearchView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.challengeyape.Adapter.RecipeAdapter
+import com.example.challengeyape.R
 import com.example.challengeyape.databinding.ActivityMainBinding
 import com.example.challengeyape.model.IngredientModel
 import com.example.challengeyape.model.RecipeModel
