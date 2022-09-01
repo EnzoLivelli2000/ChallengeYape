@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    tools:context=".view.DetailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,43 +18,72 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="30dp" />
 
-        <TextView
-            android:id="@+id/tvRecipeName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            tools:text="Recipe Name" />
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginVertical="20dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:text="Descripción"
-                android:textColor="@color/black" />
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tvRecipeDescription"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                tools:text="En un bowl mezclar los siguientes ingredientes: Amarillin Sibarita, Ajo Siba, sal, Pimienta Sibarita y Orégano Molido Sibarita.  Añadir el Vinagre Blanco Sibarita y la mayonesa. Mezclar bien y servir con el sabroso Pollo a la brasa.¿Sencillo, no? Mucho se puede decir sobre la preparación del Pollo a la Brasa, pero no hay nada mejor como hacerlo en casa y siempre con Sibarita. ¡Ahora sí, a comer!" />
-        </LinearLayout>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="20dp"
-            android:text="Ver en Mapa"/>
+                <TextView
+                    android:id="@+id/tvRecipeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:text="Recipe Name" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="Receta"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tvRecipeDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        tools:text="En un bowl mezclar los siguientes ingredientes: Amarillin Sibarita, Ajo Siba, sal, Pimienta Sibarita y Orégano Molido Sibarita.  Añadir el Vinagre Blanco Sibarita y la mayonesa. Mezclar bien y servir con el sabroso Pollo a la brasa.¿Sencillo, no? Mucho se puede decir sobre la preparación del Pollo a la Brasa, pero no hay nada mejor como hacerlo en casa y siempre con Sibarita. ¡Ahora sí, a comer!" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnMap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="15dp"
+                        android:text="Ver en Mapa" />
+
+                    <Button
+                        android:id="@+id/btnIngredients"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="15dp"
+                        android:text="Ingredientes" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </FrameLayout>

@@ -4,11 +4,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.challengeyape.R
-import com.example.challengeyape.model.Recipe
+import com.example.challengeyape.model.RecipeModel
 
 class RecipeAdapter(
-    private val recipeList: List<Recipe>,
-    private val onClickListener: (Recipe) -> Unit
+    private val recipeList: List<RecipeModel>,
+    private val onClickListener: (RecipeModel) -> Unit
 ) : RecyclerView.Adapter<RecipeViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)

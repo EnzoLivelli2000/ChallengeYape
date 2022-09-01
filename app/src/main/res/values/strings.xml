@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ChallengeYape</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
